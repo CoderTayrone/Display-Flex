@@ -66,15 +66,11 @@ img{
 }
 
 .container_prof{
-    width: 100%;
     margin: auto;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
-    min-height: 900px;
-    padding: 24px;
+    justify-content: space-around;
     align-items: center;
-    clip-path: polygon(0 5%, 100% 0, 100% 95%, 0% 100%);
 }
 .card_prof{
     text-align: center;
@@ -90,16 +86,8 @@ img{
 }
 
 @media (max-width: 1440px){
-    .container_prof{
-        padding: 100px;
-    }
     .container_content p{
         max-width: 80%;
-    }
-}
-@media (max-width: 1575px){
-    .container_prof{
-        padding: 100px;
     }
 }
 
