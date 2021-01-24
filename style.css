@@ -90,6 +90,12 @@ img{
         bottom: 24px;
         right: 24px;
     }
+    .title_princ h3{
+        font-size: 1.75em;
+    }
+    .title_princ h4{
+        font-size: 1.0em;
+    }
 }
 @media (max-width: 1440px){
     .container_content p{
