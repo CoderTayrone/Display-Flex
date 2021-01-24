@@ -193,6 +193,7 @@ img{
 .cards_gallery{
     display: flex;
     flex-wrap: wrap;
+    margin: 100px 0;
 }
 .card_gallery{
     flex: 1 1 300px;
